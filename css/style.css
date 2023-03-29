@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: 000;
+    font-size: 16px;
+    width: 1445px;
+    height: 4759px;
+}
+.menu {
+    display: flex;
+    padding-left: 0px;
+   border-right: 0px;
+    margin: 32.99px 15px 31.92px 252.05px;
+    
+
+}
+ul, li {
+    display: block;
+}
+.container {
+    width: 1445px;
+    margin: 0 auto;
+}
+.header a {
+    color: #828282;
+
+    }
+
+.menu li a {
+  
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+}
+.menu li {
+
+    margin-right: 155.65px;
+}
+
+.line p {
+    color: #828282;
+    border: 1px;
+    margin-left: 250.69px;
+}
+.img-vektor { 
+    font-size: 0;
+    margin: 0 0 0 252.05px;
+}
+.btn {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    
+    color: #828282;
+}
+.wrapper {
+   
+    width: 943.61px;
+    height: 118.17px;
+    margin: 39.69px 0 0 251.04px;
+    display: grid;
+    grid-template-columns: 297.23px 1fr 1fr;
+ 
+  }
+  .language {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+  .designer {
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+  }
+  .img-bsp
+   { 
+    font-size: 0;
+    margin: 54px 0 0 252.05px;
+  }
+  .About-me{
+    
+    background-color:#F6F6F6;
+    width: 1445px;
+    height: 506px;
+    margin-top: 104px ;
+  }
+  .About-me h2{
+    margin:104px 0 17.7px 0;
+    padding-top: 120px;
+    color: #070707;
+    display: flex;
+    font-size:  34px;
+    justify-content:center;
+  
+  }
+  .About-me p{
+  color: #070707;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  display: flex;
+  margin: 0px 480px 107px 480px;
+  padding-top: 0px;
+  justify-content:center;
+
+  }
+  .progi{
+    display: flex;
+  font-size: 0;
+  margin: 0 171px 111px 294px;
+ justify-content: space-between;
+}
+.Skills h2 {
+    margin: 91px 0 69px 0;
+    color: #070707;
+    display: flex;
+    font-size:  34px;
+    justify-content:center;
+} 
+.Skills p {
+    color: #070707;
+    display: flex;
+    margin:0 0 83.5px 0;
+    justify-content:center;
+}
+.Portfolio{
+    background-color:#F6F6F6;
+    width: 1445px;
+    height: 2253px;
+  }
+  .Portfolio h2 {
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 34px;
+    display: flex;
+    margin: 0px 480px 107px 480px;
+    padding-top: 112px;
+    justify-content:center;
+  }
