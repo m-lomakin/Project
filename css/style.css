@@ -7,6 +7,22 @@ body{
     width: 1445px;
     height: 4759px;
 }
+@font-face {
+  
+  font-family: "gilroy-bold"; 
+  
+  src: url("/fonts/gilroy-bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+  @font-face {
+  
+    font-family: "gilroy-medium"; 
+    
+    src: url("/fonts/gilroy-medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
 .menu {
     display: flex;
     padding-left: 0px;
@@ -28,7 +44,7 @@ ul, li {
     }
 
 .menu li a {
-  
+ 
     text-decoration: none;
     font-size: 18px;
     line-height: 22px;
@@ -37,7 +53,13 @@ ul, li {
 
     margin-right: 155.65px;
 }
-
+.menu li a:hover{
+  font-family: 'Gilroy-Bold';
+font-size: 18px;
+line-height: 22px;
+ color: #070707;
+  font-weight: 700;  
+}
 .line p {
     color: #828282;
     border: 1px;
@@ -47,48 +69,116 @@ ul, li {
     font-size: 0;
     margin: 0 0 0 252.05px;
 }
-.btn {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    
-    color: #828282;
+.language {
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: center;
 }
+.btn-ru {
+text-transform: uppercase;
+font-family: 'Gilroy-Bold';
+font-size: 16px;
+line-height: 20px;
+ color: #828282;
+ background: none;
+ border: none;
+ writing-mode: horizontal-tb;
+ text-orientation: upright;
+ transform: rotate(270deg); 
+
+}
+
+.btn-ru:hover{
+  font-family: 'Gilroy-Bold';
+font-size: 16px;
+line-height: 20px;
+ color: #070707;
+  font-weight: 700;  
+}
+.btn-v{
+  text-transform: uppercase;
+font-family: 'Gilroy-Bold';
+font-size: 16px;
+line-height: 20px;
+ color: #070707;
+ font-weight: 900;
+ background: none;
+ border: none;
+ writing-mode: horizontal-tb;
+ text-orientation: upright;
+ transform: rotate(270deg); 
+}
+.btn-eng {
+text-transform: uppercase;
+font-family: 'Gilroy-Bold';
+font-size: 16px;
+line-height: 20px;
+ color: #828282;
+ background: none;
+ border: none;
+ writing-mode: horizontal-tb;
+ text-orientation: upright;
+ transform: rotate(270deg); 
+
+}
+
+.btn-eng:hover{
+  font-family: 'Gilroy-Bold';
+font-size: 16px;
+line-height: 20px;
+ color: #070707;
+  font-weight: 700;  
+}
+
+
 .wrapper {
-   
+    margin: 0 auto;
     width: 943.61px;
-    height: 118.17px;
-    margin: 39.69px 0 0 251.04px;
+  
+   justify-content:center;
     display: grid;
     grid-template-columns: 297.23px 1fr 1fr;
  
   }
-  .language {
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: flex-end;
-    text-decoration: none;
+  .fio h2 {
+    font-family: Gilroy-Bold;
+    font-size: 47.34px;
+    line-height: 58.61px;
+
   }
-  .designer {
+
+  .designer h2 {
     color: #070707;
     font-family: Gilroy-Medium;
     font-size: 18px;
+    line-height: 22px;
     margin-top: 50px;
     display: flex;
     justify-content:center;
   }
   .img-bsp
    { 
-    font-size: 0;
-    margin: 54px 0 0 252.05px;
+    display: flex;
+    justify-content:center;
+    padding-top: 31px;
   }
   .About-me{
-    
+    font-family: Gilroy-Medium;
+    font-size: 18px;
     background-color:#F6F6F6;
     width: 1445px;
     height: 506px;
-    margin-top: 104px ;
+    
   }
   .About-me h2{
+
+    font-size: 34px;
+    font-family: Gilroy-Bold;
+    line-height: 42px;
+    text-align: center;
     margin:104px 0 17.7px 0;
     padding-top: 120px;
     color: #070707;
@@ -102,6 +192,7 @@ ul, li {
   font-family: Gilroy-Medium;
   font-size: 18px;
   display: flex;
+  text-align : center;
   margin: 0px 480px 107px 480px;
   padding-top: 0px;
   justify-content:center;
@@ -114,29 +205,133 @@ ul, li {
  justify-content: space-between;
 }
 .Skills h2 {
+  font-size: 34px;
+  font-family: Gilroy-Bold;
+  line-height: 42px;
+  text-align: center;
     margin: 91px 0 69px 0;
     color: #070707;
     display: flex;
-    font-size:  34px;
+   
     justify-content:center;
 } 
 .Skills p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+line-height: 22px;
+text-align: center;
     color: #070707;
     display: flex;
     margin:0 0 83.5px 0;
     justify-content:center;
 }
 .Portfolio{
+  font-size: 34px;
+  font-family: Gilroy-Bold;
     background-color:#F6F6F6;
     width: 1445px;
     height: 2253px;
   }
   .Portfolio h2 {
     color: #070707;
-    font-family: Gilroy-Medium;
+    font-family: Gilroy-Bold;
     font-size: 34px;
     display: flex;
-    margin: 0px 480px 107px 480px;
+    margin: 0px 480px 0px 480px;
     padding-top: 112px;
     justify-content:center;
   }
+  .img-woman{
+    margin: 47px 0 44.88px 0;
+    display: flex;
+     justify-content:center;
+  }
+  .img-woman p {
+    margin: 0;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-decoration: underline;
+
+  }
+  .img-reebok{
+    margin: 47px 0 44.88px 0;
+    display: flex;
+     justify-content:center;
+  }
+  .img-reebok p {
+    margin: 0;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+  text-decoration: underline;
+
+  }
+
+  .img-braun{
+    margin: 47px 0 44.88px 0;
+    display: flex;
+     justify-content:center;
+  }
+  .img-braun p {
+    margin: 0;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-decoration: underline;
+
+  }
+
+  .contacts h2{
+    color: #070707;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    display: flex;
+    margin: 114px 480px 0px 480px;
+    justify-content:center;
+  }
+  .contacts p{
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size:18px;
+    margin: 20px 0 29.6px 0;
+    text-align : center;
+    display: flex;
+    justify-content:center;
+  }
+  .btn-1{
+    display: flex;
+    justify-content:center;
+  }
+  .my-button{
+    Width:180.5px;
+    Height: 42px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 19px;
+    background: #070707;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 0.2s;
+     }
+    .my-button:hover{
+ padding-top: 3px;
+      background-color: #242222;
+    }
+.ss {
+  display: flex;
+  font-size: 0;
+ margin: 85px 550px 45px 552px;
+ justify-content: space-between;
+}
+.span-podval p{
+  margin-top: 46px;
+  display: flex;
+  justify-content:center;
+  text-align : center;
+  font-family: 'Gilroy-Medium';
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+}
