@@ -147,7 +147,9 @@ li {
   color: #070707;
   font-weight: 700;
 }
-
+.menu__burger{
+  display: none;
+}
 
 .wrapper {
   margin: 0 auto;
@@ -437,17 +439,81 @@ li {
     /* padding: 0 15px;*/
   }
 
-  .nav {
-    display: none;
-  }
+.menu__burger{
+  z-index: 2;
+  display: block;
+  position: relative;
+      margin-left: 312px;
+    margin-top: 68px;
+  width: 35px;
+  height: 25px;
+  border: none;
+  background-color: #fff;
+}
+.menu__burger span{
+  position: absolute;
+  width: 33px;
+  height: 3.84px;
+  background-color: #000;
+  left: 1px;
+  transition: transform .5s, opacity .5s ,background-color .5s;
+}
+.menu__burger span:nth-child(1){
+  transform: translateY(-6px);
+  
+}
+.menu__burger span:nth-child(3){
+  transform: translateY(6px);
+}
+.header.open .menu__burger span:nth-child(1){
+  transform: translateY(0) rotate(45deg);
+  background-color:#828282;
+}
+.header.open .menu__burger span:nth-child(2){
+  opacity: 0;
+}
+.header.open .menu__burger span:nth-child(3){
+  transform: translateY(0) rotate(-45deg);
+  background-color:#828282;
+}
+.menu{
+  display: block;
+  position: absolute;
 
-  .menu-gam {
-    width: 360px;
-    margin-top: 65px;
-    display: flex;
-    justify-content: end;
-  }
+  width: 375px;
+  height: 812px;
+  left: -375px;  
+  top: 65px;
+  margin: 0;
+  background-color: #FFFFFF;
+  transition: transform .5s;
+}
+.menu li{
+  display: block;
+}
+.menu li a{
+  font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+  color: #828282;
+  display: block;
+  padding: 0 0 68px 26px; 
+ 
+}
+.menu li a:hover {
+  font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+color: #090909;
+padding: 0 0 68px 26px; 
+  font-weight: 700;}
 
+  .header.open .menu{
+    transform: translateX(100%);
+  }
+.language {
+  display: none;
+}
 
   .img-vektor {
     display: none;
@@ -460,15 +526,13 @@ li {
   }
 
   .fio h2 {
-    margin: -65px 0 0 26px;
+    margin: -25px 0 0 26px;
     font-family: 'Gilroy-Bold';
     font-size: 47px;
     line-height: 58px;
   }
 
-  .language {
-    display: none;
-  }
+
 
   .designer h2 {
     margin: 23px 0 0 28px;
@@ -548,7 +612,7 @@ li {
   .img-woman-m {
     display: block;
     margin-left: 29px;
-    nmyhn t
+  
   }
 
   .img-reebok-m {
@@ -645,4 +709,3 @@ li {
     text-align: center;
     color: #828282;
   }
-}
