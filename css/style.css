@@ -80,7 +80,9 @@ li {
   font-size: 0;
   margin: 0 0 0 252.05px;
 }
-
+.language_375{
+  display: none;
+}
 .language {
   display: flex;
   flex-direction: column-reverse;
@@ -497,7 +499,7 @@ font-size: 34px;
 line-height: 42px;
   color: #828282;
   display: block;
-  padding: 0 0 68px 26px; 
+  padding: 0 0 34px 26px; 
  
 }
 .menu li a:hover {
@@ -514,7 +516,70 @@ padding: 0 0 68px 26px;
 .language {
   display: none;
 }
+.language_375{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: center;
+}
+.bt-eng {
+  text-transform: uppercase;
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  color: #828282;
+  background: none;
+  border: none;
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  transform: rotate(90deg);
 
+}
+
+.bt-ru:hover {
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  font-weight: 700;
+}
+.bt-v {
+  text-transform: uppercase;
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  font-weight: 900;
+  background: none;
+  border: none;
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  transform: rotate(90deg);
+}
+.bt-ru {
+  text-transform: uppercase;
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  color: #828282;
+  background: none;
+  border: none;
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  transform: rotate(90deg);
+
+}
+
+.bt-eng:hover {
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  font-weight: 700;
+}
   .img-vektor {
     display: none;
     margin: 0;
