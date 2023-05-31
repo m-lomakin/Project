@@ -1,0 +1,280 @@
+/* COMMON */
+@font-face {
+    font-family: "gilroy-bold";
+    src: url("/fonts/gilroy-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "gilroy-medium";
+    src: url("/fonts/gilroy-medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    color: #828282;
+    font-size: 18pt;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+section {
+    margin: 3rem 0;
+}
+
+.main-container {
+    /* background-color: aqua;*/
+    width: 90%;
+    max-width: 1024px;
+}
+
+section .wrapper,
+.menu,
+.img-bsp,
+.img-bsp_m,
+.header,
+.Skills,
+.progi,
+.Contacts {
+    padding: 1rem 2rem;
+}
+
+
+/* MENU DESKTOP */
+header .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #090909;
+}
+
+
+.menu li {
+    line-height: 42px;
+}
+
+section .language-switcher {
+    transform: translate(-3%, -16px) rotate(-90deg);
+    font-size: 12pt;
+    height: 12pt;
+    transform-origin: bottom right;
+}
+
+.active {
+    color: #090909
+}
+
+header .menu-burger,
+header .flex-right-col {
+    display: none;
+}
+
+/* SECTIONS */
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-menu {
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img-bsp img {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.img-bsp_m {
+    display: none;
+}
+
+.About-me {
+    background-color: #F6F6F6;
+    width: 100%;
+    height: auto;
+    margin: 3rem 0 3rem;
+}
+
+.About-me h2,
+.Skills h2,
+.portfolio h2,
+.Contacts h2 {
+    font-size: 34px;
+    font-family: Gilroy-Bold;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding: 3rem 0 1rem;
+}
+
+.About-me p,
+.Skills p {
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0 4rem;
+}
+
+.Contacts p {
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio p {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 5rem;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.progi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.my-button {
+    width: 180.5px;
+    height: 42px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 19px;
+    background: #070707;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.ss {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    column-gap: 30px;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.span-podval {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .main-container {
+        width: 100%;
+    }
+
+    .language-switcher {
+        transform: rotate(90deg);
+        margin-bottom: 2rem;
+    }
+
+    section .language-switcher {
+        display: none;
+    }
+
+    /* if menu is closed */
+    header .menu-burger {
+        display: block;
+        margin-left: auto;
+    }
+
+    header .menu,
+    header .flex-right-col {
+        display: none;
+    }
+
+    .img-bsp {
+        display: none;
+    }
+
+    .img-bsp_m {
+        display: inline-flex;
+        width: 100%;
+        margin: 2rem 0;
+        justify-content: center
+    }
+
+    .progi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .mobile-menu.open {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu.open .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    /* if menu is opened */
+    .mobile-menu.open .menu,
+    .mobile-menu.open .flex-right-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .mobile-menu.open .menu li {
+        margin-bottom: 3rem;
+    }
+
+}

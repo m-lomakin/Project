@@ -1,0 +1,792 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: 000;
+    font-size: 16px;
+    width: 1445px; 
+    height: auto;
+    /* use rem or % */
+}
+
+@font-face {
+    font-family: "gilroy-bold";
+    src: url("/fonts/gilroy-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "gilroy-medium";
+    src: url("/fonts/gilroy-medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu {
+    display: flex;
+    padding-left: 0px;
+    border-right: 0px;
+    margin: 32.99px 15px 31.92px 252.05px;
+}
+
+ul,
+li {
+    display: block;
+}
+
+.container {
+    width: 1445px;
+    margin: 0 auto;
+}
+
+.header a {
+    color: #828282;
+
+}
+
+.menu li a {
+
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.menu li {
+
+    margin-right: 155.65px;
+}
+
+.menu li a:hover {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    font-weight: 700;
+}
+
+.line p {
+    color: #828282;
+    border: 1px;
+    margin-left: 250.69px;
+}
+
+.img-vektor {
+    font-size: 0;
+    margin: 0 0 0 252.05px;
+}
+
+.language_375 {
+    display: none;
+}
+
+.language {
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: center;
+}
+
+.btn-ru {
+    text-transform: uppercase;
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    background: none;
+    border: none;
+    writing-mode: horizontal-tb;
+    text-orientation: upright;
+    transform: rotate(270deg);
+
+}
+
+.btn-ru:hover {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #070707;
+    font-weight: 700;
+}
+
+.btn-v {
+    text-transform: uppercase;
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #070707;
+    font-weight: 900;
+    background: none;
+    border: none;
+    writing-mode: horizontal-tb;
+    text-orientation: upright;
+    transform: rotate(270deg);
+}
+
+.btn-eng {
+    text-transform: uppercase;
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    background: none;
+    border: none;
+    writing-mode: horizontal-tb;
+    text-orientation: upright;
+    transform: rotate(270deg);
+
+}
+
+.btn-eng:hover {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #070707;
+    font-weight: 700;
+}
+
+.menu__burger {
+    display: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 943.61px;
+
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 297.23px 1fr 1fr;
+
+}
+
+.fio h2 {
+    font-family: Gilroy-Bold;
+    font-size: 47.34px;
+    line-height: 58.61px;
+
+}
+
+.designer h2 {
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-bs {
+    display: none;
+}
+
+.img-bsp {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.About-me {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    background-color: #F6F6F6;
+    width: 1445px;
+    height: 506px;
+
+}
+
+.About-me h2 {
+
+    font-size: 34px;
+    font-family: Gilroy-Bold;
+    line-height: 42px;
+    text-align: center;
+    margin: 104px 0 17.7px 0;
+    padding-top: 120px;
+    color: #070707;
+    display: flex;
+    font-size: 34px;
+    justify-content: center;
+
+}
+
+.About-me p {
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 480px 107px 480px;
+    padding-top: 0px;
+
+
+}
+
+.progi {
+    display: flex;
+    font-size: 0;
+    margin: 0 171px 111px 294px;
+    justify-content: space-between;
+}
+
+.Skills h2 {
+    font-size: 34px;
+    font-family: Gilroy-Bold;
+    line-height: 42px;
+    text-align: center;
+    margin: 91px 0 69px 0;
+    color: #070707;
+    display: flex;
+
+    justify-content: center;
+}
+
+.Skills p {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    display: flex;
+    margin: 0 0 83.5px 0;
+    justify-content: center;
+}
+
+.Portfolio {
+    font-size: 34px;
+    font-family: Gilroy-Bold;
+    background-color: #F6F6F6;
+    width: 1445px;
+    height: 2253px;
+}
+
+.Portfolio h2 {
+    color: #070707;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    display: flex;
+    margin: 0px 480px 0px 480px;
+    padding-top: 112px;
+    justify-content: center;
+}
+
+.img-woman-m {
+    display: none;
+}
+
+.img-woman {
+    margin: 47px 0 44.88px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.woman p {
+    margin: 0;
+    display: flex;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-decoration: underline;
+    justify-content: center;
+
+}
+
+.img-reebok-m {
+    display: none;
+}
+
+.img-reebok {
+    margin: 47px 0 44.88px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.reebok p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+.img-braun-m {
+    display: none;
+}
+
+.img-braun {
+    margin: 47px 0 44.88px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.braun p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+.contacts h2 {
+    color: #070707;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    display: flex;
+    margin: 114px 480px 0px 480px;
+    justify-content: center;
+}
+
+.contacts p {
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    margin: 20px 0 29.6px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.my-button {
+    width: 180.5px;
+    height: 42px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 19px;
+    background: #070707;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.my-button:hover {
+    padding-top: 3px;
+    background-color: #242222;
+}
+
+.ss {
+    display: flex;
+    font-size: 0;
+    margin: 85px 550px 45px 552px;
+    justify-content: space-between;
+}
+
+.span-podval p {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.menu-gamb {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-gam {
+    width: 312px;
+    height: 68px;
+    display: none;
+    justify-content: end;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+
+        /* padding: 0 15px;*/
+    }
+
+    .menu__burger {
+        z-index: 2;
+        display: block;
+        position: relative;
+        margin-left: 312px;
+        margin-top: 68px;
+        width: 35px;
+        height: 25px;
+        border: none;
+        background-color: #fff;
+    }
+
+    .menu__burger span {
+        position: absolute;
+        width: 33px;
+        height: 3.84px;
+        background-color: #000;
+        left: 1px;
+        transition: transform .5s, opacity .5s, background-color .5s;
+    }
+
+    .menu__burger span:nth-child(1) {
+        transform: translateY(-6px);
+
+    }
+
+    .menu__burger span:nth-child(3) {
+        transform: translateY(6px);
+    }
+
+    .header.open .menu__burger span:nth-child(1) {
+        transform: translateY(0) rotate(45deg);
+        background-color: #828282;
+    }
+
+    .header.open .menu__burger span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header.open .menu__burger span:nth-child(3) {
+        transform: translateY(0) rotate(-45deg);
+        background-color: #828282;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+
+        width: 375px;
+        height: 812px;
+        left: -375px;
+        top: 65px;
+        margin: 0;
+        background-color: #FFFFFF;
+        transition: transform .5s;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    .menu li a {
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #828282;
+        display: block;
+        padding: 0 0 34px 26px;
+
+    }
+
+    .menu li a:hover {
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #090909;
+        padding: 0 0 34px 26px;
+        font-weight: 700;
+    }
+
+    .header.open .menu {
+        transform: translateX(100%);
+    }
+
+    .language {
+        display: none;
+    }
+
+    .language_375 {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-self: end;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        align-items: center;
+    }
+
+    .bt-eng {
+        text-transform: uppercase;
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #828282;
+        background: none;
+        border: none;
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        transform: rotate(90deg);
+
+    }
+
+    .bt-ru:hover {
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #070707;
+        font-weight: 700;
+    }
+
+    .bt-v {
+        text-transform: uppercase;
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #070707;
+        font-weight: 900;
+        background: none;
+        border: none;
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        transform: rotate(90deg);
+    }
+
+    .bt-ru {
+        text-transform: uppercase;
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #828282;
+        background: none;
+        border: none;
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        transform: rotate(90deg);
+
+    }
+
+    .bt-eng:hover {
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #070707;
+        font-weight: 700;
+    }
+
+    .img-vektor {
+        display: none;
+        margin: 0;
+    }
+
+    .wrapper {
+        display: block;
+        margin: 0;
+    }
+
+    .fio h2 {
+        margin: -25px 0 0 26px;
+        font-family: 'Gilroy-Bold';
+        font-size: 47px;
+        line-height: 58px;
+    }
+
+
+
+    .designer h2 {
+        margin: 23px 0 0 28px;
+        display: block;
+    }
+
+    .img-bsp {
+        display: none;
+    }
+
+    .img-bs {
+        display: flex;
+        margin: 36px 0 0 29px;
+    }
+
+    .About-me h2 {
+        margin: 81px 0 30px 0;
+        padding: 83px 0 30px 0;
+    }
+
+    .About-me p {
+        margin: 0;
+        text-align: center;
+        padding-bottom: 76px;
+    }
+
+    .About-me {
+        margin: 0;
+        width: 377px;
+        height: auto;
+    }
+
+    .Skills h2 {
+        margin: 83px 0 50px 0;
+        width: 377px;
+    }
+
+    .Skills p {
+        margin-bottom: 71px;
+        width: 377px;
+    }
+
+    .progi {
+        display: flex;
+        font-size: 0;
+        margin-left: 98px;
+        margin-bottom: 98px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Portfolio {
+        font-size: 34px;
+        font-family: Gilroy-Bold;
+        background-color: #F6F6F6;
+        width: 375px;
+        height: 1118px;
+    }
+
+    .Portfolio h2 {
+        margin: 81px 0 65px 0;
+        width: 377px;
+    }
+
+    .img-woman {
+        display: none;
+    }
+
+    .img-reebok {
+        display: none;
+    }
+
+    .img-braun {
+        display: none;
+    }
+
+    .img-woman-m {
+        display: block;
+        margin-left: 29px;
+
+    }
+
+    .img-reebok-m {
+        display: block;
+        margin-left: 29px;
+    }
+
+    .img-braun-m {
+        display: block;
+        margin-left: 29px;
+    }
+
+    .braun p {
+        font-family: Gilroy-Medium;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #070707;
+        display: flex;
+        margin: 35px 0 78px 58px;
+        justify-content: flex-start;
+    }
+
+    .woman p {
+        font-family: Gilroy-Medium;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #070707;
+        display: flex;
+        margin: 35px 0 78px 49px;
+        justify-content: flex-start;
+    }
+
+    .reebok p {
+        font-family: Gilroy-Medium;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #070707;
+        display: flex;
+        margin: 35px 0 78px 86px;
+        justify-content: flex-start;
+    }
+
+    .contacts h2 {
+        color: #070707;
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        display: flex;
+        margin: 82px 0 27px 115px;
+        justify-content: start;
+    }
+
+    .contacts p {
+        color: #070707;
+        font-family: Gilroy-Medium;
+        font-size: 18px;
+        margin-left: 87px;
+        text-align: center;
+        display: flex;
+        justify-content: start;
+    }
+
+    .btn-1 {
+
+        display: flex;
+        justify-content: start;
+        margin-left: 29px;
+    }
+
+    .my-button {
+        Width: 316px;
+        Height: 42px;
+    }
+
+    .ss {
+        display: flex;
+        width: 315px;
+        margin: 85px 51px 45px 29px;
+        justify-content: space-around;
+
+    }
+
+    .span-podval p {
+
+        margin-left: 29px;
+        display: flex;
+        justify-content: start;
+        text-align: center;
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+    }
+}
