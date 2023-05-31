@@ -4,7 +4,7 @@ body {
   font-family: 'Gilroy-Bold', sans-serif;
   color: 000;
   font-size: 16px;
-  width: 1445px;
+  width: auto ;
   height: auto;
 }
 
@@ -155,7 +155,7 @@ li {
 
 .wrapper {
   margin: 0 auto;
-  width: 943.61px;
+  width: auto;
 
   justify-content: center;
   display: grid;
